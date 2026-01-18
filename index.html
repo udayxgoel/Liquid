@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liquid Brokers | Institutional Ecosystem</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="liquid-bg"></canvas>
+
+    <header>
+      <div class="logo" style="font-weight: 800; font-size: 1.4rem">LIQUID</div>
+      <ul class="nav-links">
+        <li><a href="#markets">Markets</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#app">Mobile</a></li>
+        <li><a href="#faq">Support</a></li>
+      </ul>
+      <div class="header-cta">
+        <a
+          href="#"
+          class="btn-pill"
+          style="padding: 8px 20px; font-size: 0.8rem"
+          >Open Portal</a
+        >
+      </div>
+      <div class="menu-toggle"><span></span><span></span><span></span></div>
+    </header>
+
+    <div
+      class="blur-orb"
+      style="
+        width: 600px;
+        height: 600px;
+        background: var(--accent);
+        top: -100px;
+        right: -100px;
+      "
+    ></div>
+
+    <section class="hero">
+      <span
+        style="
+          letter-spacing: 4px;
+          color: var(--accent);
+          font-weight: 700;
+          font-size: 0.8rem;
+          margin-bottom: 20px;
+        "
+        >INSTITUTIONAL GRADE</span
+      >
+      <h1>The Liquid <br /><span class="grad-text">Standard</span></h1>
+      <p>
+        Direct market access for professional traders. Experience zero-latency
+        execution and the deepest liquidity pools in the industry.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="btn-pill">Get Started</a>
+        <a
+          href="#"
+          style="
+            color: white;
+            margin-left: 30px;
+            text-decoration: none;
+            font-weight: 600;
+          "
+          >View Markets →</a
+        >
+      </div>
+    </section>
+
+    <div class="marquee">
+      <div class="marquee-content">
+        <span>GOLDMAN</span> <span>J.P. MORGAN</span> <span>BINANCE</span>
+        <span>NASDAQ</span> <span>CITADEL</span> <span>GOLDMAN</span>
+        <span>J.P. MORGAN</span> <span>BINANCE</span> <span>NASDAQ</span>
+        <span>CITADEL</span>
+      </div>
+    </div>
+
+    <section class="container" id="tiers">
+      <h2 style="text-align: center; font-size: 3rem; margin-bottom: 20px">
+        Choose Your <span class="grad-text">Tier</span>
+      </h2>
+      <div class="tier-grid">
+        <div class="tier-card">
+          <h4>Retail</h4>
+          <h2 style="margin: 20px 0">
+            $0<small style="font-size: 1rem; color: var(--text-dim)">/mo</small>
+          </h2>
+          <p style="color: var(--text-dim); font-size: 0.9rem">
+            Standard spreads, Basic support, Web access.
+          </p>
+        </div>
+        <div class="tier-card featured">
+          <span class="tier-tag">POPULAR</span>
+          <h4>Pro</h4>
+          <h2 style="margin: 20px 0; color: var(--accent)">
+            $49<small style="font-size: 1rem; color: var(--text-dim)"
+              >/mo</small
+            >
+          </h2>
+          <p style="color: var(--text-dim); font-size: 0.9rem">
+            Raw spreads, API access, Priority fills.
+          </p>
+        </div>
+        <div class="tier-card">
+          <h4>Institutional</h4>
+          <h2 style="margin: 20px 0">Custom</h2>
+          <p style="color: var(--text-dim); font-size: 0.9rem">
+            FIX API, Dedicated manager, Co-location.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="stats-row">
+        <div class="stat-box">
+          <h2 class="count">$4.2B+</h2>
+          <p style="color: var(--text-dim)">Daily Volume</p>
+        </div>
+        <div class="stat-box">
+          <h2 class="count">0.01ms</h2>
+          <p style="color: var(--text-dim)">Execution Speed</p>
+        </div>
+        <div class="stat-box">
+          <h2 class="count">24/7</h2>
+          <p style="color: var(--text-dim)">Expert Support</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="horizontal-scroll-container">
+      <div class="horizontal-scroll-content">
+        <div class="h-slide">
+          <div class="h-card">
+            <h2
+              style="font-size: clamp(1.5rem, 4vw, 3rem); margin-bottom: 20px"
+            >
+              Deep <span class="grad-text">Liquidity</span>
+            </h2>
+            <p style="font-size: 1.1rem; color: var(--text-dim)">
+              Aggregated from top-tier financial institutions to ensure the
+              tightest spreads in the market.
+            </p>
+          </div>
+        </div>
+        <div class="h-slide">
+          <div class="h-card">
+            <h2
+              style="font-size: clamp(1.5rem, 4vw, 3rem); margin-bottom: 20px"
+            >
+              Global <span class="grad-text">Presence</span>
+            </h2>
+            <p style="font-size: 1.1rem; color: var(--text-dim)">
+              Server nodes in London, New York, and Tokyo for localized
+              ultra-fast connectivity.
+            </p>
+          </div>
+        </div>
+        <div class="h-slide">
+          <div class="h-card">
+            <h2
+              style="font-size: clamp(1.5rem, 4vw, 3rem); margin-bottom: 20px"
+            >
+              Pro <span class="grad-text">Terminal</span>
+            </h2>
+            <p style="font-size: 1.1rem; color: var(--text-dim)">
+              Customizable interface with institutional-grade charting and risk
+              management tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container" id="technology">
+      <div class="bento-grid">
+        <div class="bento-card tall animate-card">
+          <h3>Proprietary Engine</h3>
+          <p style="color: var(--text-dim); margin-top: 15px">
+            Built from the ground up for sub-millisecond order matching.
+          </p>
+          <div
+            style="
+              font-size: 4rem;
+              font-weight: 800;
+              color: var(--accent);
+              margin-top: 20px;
+            "
+          >
+            0.01ms
+          </div>
+        </div>
+        <div class="bento-card wide animate-card">
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+            </div>
+            <div class="code-line">connect("liquid_gateway_ny4")</div>
+            <div class="code-line">
+              exec_order(type="LIMIT", pair="BTC/USD")
+            </div>
+            <div class="code-line">status: 200 OK | fill_time: 0.008ms</div>
+          </div>
+        </div>
+        <div class="bento-card animate-card">
+          <h3>Smart API</h3>
+          <p style="color: var(--text-dim)">
+            Seamless FIX/REST integration for automated flows.
+          </p>
+        </div>
+        <div class="bento-card animate-card">
+          <h3>Secure Vault</h3>
+          <p style="color: var(--text-dim)">
+            Institutional-grade multi-sig cold storage.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="markets">
+      <h2 style="text-align: center; font-size: 3rem; margin-bottom: 60px">
+        Explore <span class="grad-text">Markets</span>
+      </h2>
+      <div class="asset-grid">
+        <div class="asset-card" id="card-1">
+          <div class="icon">📈</div>
+          <h3>FOREX</h3>
+        </div>
+        <div class="asset-card" id="card-2">
+          <div class="icon">₿</div>
+          <h3>CRYPTO</h3>
+        </div>
+        <div class="asset-card" id="card-3">
+          <div class="icon">💎</div>
+          <h3>METALS</h3>
+        </div>
+        <div class="asset-card" id="card-4">
+          <div class="icon">🏭</div>
+          <h3>INDICES</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="roadmap">
+      <h2 style="font-size: 3rem; margin-bottom: 60px">
+        Our <span class="grad-text">Roadmap</span>
+      </h2>
+      <div class="roadmap-grid">
+        <div class="roadmap-item animate-card">
+          <h4 style="color: var(--accent)">Q1 2026</h4>
+          <p>Global FIX API roll-out and cross-margin crypto accounts.</p>
+        </div>
+        <div class="roadmap-item animate-card">
+          <h4 style="color: var(--accent)">Q2 2026</h4>
+          <p>Institutional Co-location services in London LD4.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container app-section" id="app">
+      <div class="app-content reveal">
+        <h2 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 20px">
+          Power in your <span class="grad-text">Pocket</span>
+        </h2>
+        <p style="color: var(--text-dim); margin-bottom: 30px">
+          Our award-winning app provides full trading functionality, advanced
+          charting, and biometric security.
+        </p>
+        <a href="#" class="btn-pill">Download Mobile</a>
+      </div>
+      <div class="app-mockup">
+        <div class="phone-frame reveal">
+          <div style="padding: 20px; color: var(--accent); font-weight: 800">
+            LIQUID APP
+          </div>
+          <div
+            style="
+              height: 180px;
+              background: linear-gradient(var(--accent-soft), transparent);
+              margin: 20px;
+              border-radius: 20px;
+            "
+          ></div>
+          <div
+            style="padding: 0 20px; color: var(--text-dim); font-size: 0.8rem"
+          >
+            Live P&L Tracking
+          </div>
+          <div
+            style="
+              height: 80px;
+              background: rgba(255, 255, 255, 0.05);
+              margin: 10px 20px;
+              border-radius: 10px;
+            "
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="container"
+      id="faq"
+      style="max-width: 900px; margin: 0 auto"
+    >
+      <h2 style="text-align: center; margin-bottom: 60px; font-size: 3rem">
+        Common Questions
+      </h2>
+      <div class="faq-item">
+        <div class="faq-question">
+          How does Liquid achieve zero-latency? <span>+</span>
+        </div>
+        <div class="faq-answer">
+          By co-locating our servers directly within exchange data centers and
+          using fiber-optic cross-connects.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Is my capital protected? <span>+</span></div>
+        <div class="faq-answer">
+          Yes, funds are held in segregated Tier-1 bank accounts and protected
+          by Lloyd's of London insurance.
+        </div>
+      </div>
+    </section>
+
+    <footer style="padding: 100px 5% 40px; border-top: 1px solid var(--border)">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 40px;
+        "
+      >
+        <div>
+          <h2 style="margin-bottom: 10px">LIQUID</h2>
+          <p style="color: var(--text-dim); max-width: 300px">
+            The institutional standard for retail traders. Built on speed,
+            transparency, and security.
+          </p>
+        </div>
+        <div style="display: flex; gap: 60px">
+          <div class="footer-col">
+            <h4 style="margin-bottom: 20px; color: var(--accent)">Company</h4>
+            <p style="color: var(--text-dim); margin-bottom: 10px">About</p>
+            <p style="color: var(--text-dim)">Careers</p>
+          </div>
+        </div>
+      </div>
+      <p
+        style="
+          text-align: center;
+          color: var(--text-dim);
+          font-size: 0.75rem;
+          margin-top: 80px;
+        "
+      >
+        &copy; 2026 Liquid Brokers. Trading involves significant risk.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
